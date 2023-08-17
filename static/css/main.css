@@ -1,0 +1,24 @@
+
+h1 {
+    font-family: sans-serif;
+}
+
+header {
+    margin-left: 2em;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article table, th, td {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+aside {
+    width: 15%;
+    margin-left: 1em;
+}

@@ -1,0 +1,3 @@
+baseURL = 'http://aotready.net/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
