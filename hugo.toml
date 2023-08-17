@@ -1,3 +1,9 @@
 baseURL = 'http://aotready.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'AOT Ready'
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

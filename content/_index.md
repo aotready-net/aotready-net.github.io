@@ -4,11 +4,15 @@ title: "AOT Ready .NET"
 
 This page is a resource for finding .NET libraries that are compatible with Native AOT.
 
+✅ = Fully compatible
+🟡 = Partially compatible
+❌ = Not compatible
+
 ## Logging
 
-| Library              | Fully Compatible | Partially Compatible | Not Compatible | Notes |
-|----------------------|------------------|----------------------|----------------|-------|
-| Serilog              | ✅                |                      |                |       |
-| Serilog.Configuraion |                  |                      | ❌              |       |
+| Library              | Status | Notes |
+|----------------------|--------|-------|
+| Serilog              | ✅     |-------|
+| Serilog.Configuraion | ❌     |-------|
 
 ## Serialization

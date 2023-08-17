@@ -18,7 +18,16 @@ article table, th, td {
     border-collapse: collapse;
 }
 
+article td {
+    text-align: center;
+}
+
 aside {
     width: 15%;
     margin-left: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
