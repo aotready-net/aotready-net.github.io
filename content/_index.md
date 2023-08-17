@@ -10,9 +10,9 @@ This page is a resource for finding .NET libraries that are compatible with Nati
 
 ## Logging
 
-| Library              | Status | Notes |
-|----------------------|--------|-------|
-| Serilog              | ✅     |-------|
-| Serilog.Configuraion | ❌     |-------|
+| Library               | Status | Notes |
+|-----------------------|--------|-------|
+| Serilog               | ✅     |       |
+| Serilog.Configuration | ❌     |       |
 
 ## Serialization
