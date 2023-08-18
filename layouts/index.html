@@ -1,20 +1,18 @@
 {{ define "main" }}
-<main aria-role="main">
-    <header class="homepage-header">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{ . }}</span>
-        {{ end }}
-    </header>
-    <article>
-        <aside>
-            <h3>Categories</h3>
-            {{ .TableOfContents }}
-        </aside>
-        <div class="homepage-content">
-            <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-            {{ .Content }}
-        </div>
-    </article>
+<header class="homepage-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <span class="subtitle">{{ . }}</span>
+    {{ end }}
+</header>
+<main>
+    <div class="sidebar">
+        <h3>Categories</h3>
+        {{ .TableOfContents }}
+    </div>
+    <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{ .Content }}
+    </div>
 </main>
 {{ end }}
