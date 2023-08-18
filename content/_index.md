@@ -1,8 +1,8 @@
 ---
-title: "AOT Ready .NET"
+title: "AOT Ready"
 ---
 
-This page is a resource for finding .NET libraries that are compatible with Native AOT.
+This page is a resource for finding .NET libraries that are compatible with [Native AOT](https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/?tabs=net7%2Cwindows).
 
 ✅ = Fully compatible
 🟡 = Partially compatible
@@ -12,7 +12,7 @@ This page is a resource for finding .NET libraries that are compatible with Nati
 
 | Library               | Status | Notes |
 |-----------------------|--------|-------|
-| Serilog               | ✅     |       |
-| Serilog.Configuration | ❌     |       |
+| [Serilog](https://www.nuget.org/packages/Serilog/3.0.1)               | ✅     |       |
+| [Serilog.Configuration](https://www.nuget.org/packages/Serilog.Settings.Configuration) | ❌     |       |
 
 ## Serialization
