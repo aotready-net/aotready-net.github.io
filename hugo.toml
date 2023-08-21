@@ -1,6 +1,6 @@
 baseURL = 'http://aotready.net/'
 languageCode = 'en-us'
-title = 'AOT Ready'
+title = 'AOTReady.NET'
 
 [markup]
   [markup.tableOfContents]
